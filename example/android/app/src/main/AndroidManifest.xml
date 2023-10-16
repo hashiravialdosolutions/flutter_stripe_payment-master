@@ -36,5 +36,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+            android:exported="false"
+            tools:node="merge"
+            tools:overrideLibrary="com.stripe.android"  />
     </application>
 </manifest>
