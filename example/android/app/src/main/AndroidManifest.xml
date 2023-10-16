@@ -42,5 +42,62 @@
             android:exported="false"
             tools:node="merge"
             tools:overrideLibrary="com.stripe.android"  />
+            <activity
+            android:name="com.stripe.android.view.Stripe3ds2CompletionActivity"
+            android:exported="false"
+            tools:node="merge"
+            tools:overrideLibrary="com.stripe.android" />
+        <activity
+            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+            android:exported="false"
+            tools:node="merge"
+            tools:overrideLibrary="com.stripe.android" />
+        <activity
+            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+            android:exported="false"
+            tools:node="merge"
+            tools:overrideLibrary="com.stripe.android" />
+        <activity
+            android:name="com.stripe.android.googlepay.StripeGooglePayActivity"
+            android:exported="false"
+            tools:node="merge"
+            tools:overrideLibrary="com.stripe.android" />
+        <activity
+            android:name="com.stripe.android.view.PaymentRelayActivity"
+            android:exported="false"
+            tools:node="merge"
+            tools:overrideLibrary="com.stripe.android"  />
+
+        <activity
+            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+            android:exported="false"
+            tools:node="merge"
+            tools:overrideLibrary="com.stripe.android"  />
+        <activity
+            android:name="com.stripe.android.stripe3ds2.views.ChallengeProgressActivity"
+            android:exported="false"
+            tools:node="merge"
+            tools:overrideLibrary="com.stripe.android"  />
+
+        <activity
+            android:name="com.stripe.android.view.Stripe3ds2CompletionActivity"
+            android:exported="false"
+            tools:node="merge"
+            tools:overrideLibrary="com.stripe.android"  />
+        <activity
+            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+            android:exported="false"
+            tools:node="merge"
+            tools:overrideLibrary="com.stripe.android"  />
+        <activity
+            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+            android:exported="false"
+            tools:node="merge"
+            tools:overrideLibrary="com.stripe.android"  />
+        <activity
+            android:name="com.stripe.android.googlepay.StripeGooglePayActivity"
+            android:exported="false"
+            tools:node="merge"
+            tools:overrideLibrary="com.stripe.android"  />
     </application>
 </manifest>
