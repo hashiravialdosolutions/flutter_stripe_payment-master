@@ -16,5 +16,5 @@ A new flutter plugin project.
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
   s.dependency 'Stripe', '~> 19.4.0'
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 end
